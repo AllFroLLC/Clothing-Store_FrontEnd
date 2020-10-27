@@ -1,0 +1,255 @@
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1600px;
+    height: 148px;
+    background-color: #f8f3f4;
+    padding: 0 230px 0 228px;
+
+    &__title {
+        font-size: 24px;
+        line-height: 20px;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: #f16d7f;
+    }
+
+    &Nav {
+        display: flex;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: #636363;
+    }
+}
+
+.shoppingCart {
+    padding: 90px 230px 0 230px;
+
+    &Heading {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #eaeaea;
+
+        &>p {
+            font-size: 13px;
+            line-height: 20px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: -0.015em;
+            color: #222222;
+
+            &:first-child {
+                margin-right: 320px;
+            }
+        }
+    }
+
+    &Product {
+        display: flex;
+        padding-top: 22px;
+        padding-bottom: 25px;
+        border-bottom: 1px solid #eaeaea;
+
+
+        &>img {
+            width: 100px;
+            height: 115px;
+            margin-right: 21px;
+        }
+
+        &__description {
+            margin-right: 240px;
+
+            &>h4 {
+                font-size: 13px;
+                line-height: 1.2;
+                font-weight: 400;
+                text-transform: uppercase;
+                color: #222222;
+                margin-top: 13px;
+                margin-bottom: 38px;
+            }
+
+            &>p {
+                font-size: 13px;
+                line-height: 20px;
+                font-weight: 400;
+                color: #575757;
+            }
+
+            &>span {
+                font-weight: 300;
+                color: #6f6e6e;
+            }
+        }
+
+        &__details {
+            width: 630px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 13px;
+            line-height: 20px;
+            font-weight: 400;
+            color: #656565;
+
+            &>input {
+                width: 54px;
+                height: 30px;
+                background-color: #ffffff;
+                border: 1px solid #eaeaea;
+                padding-left: 20px;
+
+                &>i {
+                    font-size: 16px;
+                    line-height: 1.2;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    color: #c0c0c0;
+                }
+            }
+        }
+    }
+
+    &Button {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 44px;
+
+        &>button {
+            width: 235px;
+            height: 50px;
+            background-color: #ffffff;
+            border: 1px solid #eaeaea;
+            font-size: 14px;
+            line-height: 1.2;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #4a4a4a;
+        }
+    }
+
+    &Form {
+        margin-top: 63px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 79px;
+    }
+}
+
+.shippingAdress {
+    width: 355px;
+    height: 268px;
+}
+
+.couponDiscount {
+    width: 355px;
+    height: 184px;
+}
+
+.shippingAdress,
+.couponDiscount {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &>h3 {
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #222222;
+    }
+
+    &>select {
+        width: 355px;
+        height: 45px;
+        background-color: #ffffff;
+        border: 1px solid #eaeaea;
+        font-size: 13px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #b1b1b1;
+        padding-left: 18px;
+    }
+
+    &>input {
+        width: 355px;
+        height: 45px;
+        background-color: #ffffff;
+        border: 1px solid #eaeaea;
+        font-size: 13px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #b1b1b1;
+        padding-left: 18px;
+    }
+
+    &>button {
+        width: 100px;
+        height: 35px;
+        background-color: #ffffff;
+        border: 1px solid #eaeaea;
+        font-size: 11px;
+        line-height: 1.2;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #4a4a4a;
+    }
+}
+
+
+.proceedToCheck {
+    width: 360px;
+    height: 214px;
+    background-color: #f5f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 40px 0 42px 0;
+
+    &>button {
+        width: 273px;
+        height: 50px;
+        background-color: #f16d7f;
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+        border: none;
+        align-self: center;
+    }
+}
+
+.subTotal {
+    font-size: 11px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #4a4a4a;
+    align-self: flex-end;
+    margin-right: 41px;
+    margin-bottom: 14px;
+}
+
+.grandTotal {
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+    align-self: flex-end;
+    margin-right: 42px;
+    margin-bottom: 42px;
+
+    &>span {
+        color: #f16d7f;
+    }
+}
