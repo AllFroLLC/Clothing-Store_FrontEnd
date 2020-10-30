@@ -12,6 +12,10 @@
     border: 1px solid #ececec;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.17);
     margin: 0 auto;
+
+    @media (min-width: 1044px) {
+        width: auto;
+    }
 }
 
 // start header
@@ -28,10 +32,8 @@
     padding-left: 227px;
     padding-right: 231px;
 
-    &__left,
-    &__right {
-        display: flex;
-        align-items: center;
+    @media (min-width: 1044px) {
+        width: auto;
     }
 
 }
@@ -40,7 +42,6 @@
     display: flex;
     align-items: center;
     width: 200px;
-    height: inherit;
     text-decoration: none;
 
     &__img {
@@ -126,6 +127,10 @@
             cursor: pointer;
         }
     }
+}
+
+.card {
+    margin-left: 349px;
 }
 
 .MyAccount {
@@ -223,6 +228,10 @@
     background-color: #e8e8e8;
     overflow: hidden;
 
+    @media (min-width: 1044px) {
+        width: auto;
+    }
+
 
     &__container {
         height: inherit;
@@ -266,6 +275,11 @@
     justify-content: space-between;
     padding: 98px 230px;
     margin-bottom: 2px;
+
+    @media (min-width: 1044px) {
+        width: 1600px;
+        margin: 0 auto;
+    }
 
     &Big {
         width: 560px;
@@ -332,6 +346,12 @@
 
 //start product
 .product {
+
+    @media (min-width: 1044px) {
+        width: 1600px;
+        margin: 0 auto;
+    }
+
 
     &CardWrap {
         display: flex;

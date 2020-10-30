@@ -15,6 +15,12 @@
   margin: 0 auto;
 }
 
+@media (min-width: 1044px) {
+  .container {
+    width: auto;
+  }
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -34,13 +40,10 @@
   padding-right: 231px;
 }
 
-.header__left, .header__right {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+@media (min-width: 1044px) {
+  .header {
+    width: auto;
+  }
 }
 
 .logo {
@@ -51,7 +54,6 @@
       -ms-flex-align: center;
           align-items: center;
   width: 200px;
-  height: inherit;
   text-decoration: none;
 }
 
@@ -174,6 +176,10 @@
   cursor: pointer;
 }
 
+.card {
+  margin-left: 349px;
+}
+
 .MyAccount {
   width: 130px;
   height: 38px;
@@ -271,6 +277,12 @@
   overflow: hidden;
 }
 
+@media (min-width: 1044px) {
+  .slider {
+    width: auto;
+  }
+}
+
 .slider__container {
   height: inherit;
   background: url(../images/topHeaderBack.png) no-repeat 554px 0;
@@ -317,6 +329,13 @@
           justify-content: space-between;
   padding: 98px 230px;
   margin-bottom: 2px;
+}
+
+@media (min-width: 1044px) {
+  .category {
+    width: 1600px;
+    margin: 0 auto;
+  }
 }
 
 .categoryBig {
@@ -377,6 +396,13 @@
 .categorySmallContent__top span {
   font-size: 30px;
   color: #f16d7f;
+}
+
+@media (min-width: 1044px) {
+  .product {
+    width: 1600px;
+    margin: 0 auto;
+  }
 }
 
 .productCardWrap {
